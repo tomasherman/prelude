@@ -1,1 +1,1 @@
-(prelude-require-packages '(git-gutter+ auto-complete))
+(prelude-require-packages '(git-gutter+ auto-complete ensime))
