@@ -20,4 +20,4 @@ session*
 .cask
 ac-comphist.dat
 tramp
-
+/var/pcache
