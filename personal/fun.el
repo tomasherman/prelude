@@ -5,4 +5,4 @@
 
 (defun punchin ()
   (interactive)
-  (find-file "~/Dropbox/notes/work/dochazka"))
+  (find-file "~/Dropbox/work/dochazka"))
