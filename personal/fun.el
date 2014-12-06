@@ -6,3 +6,4 @@
 (defun punchin ()
   (interactive)
   (find-file "~/Dropbox/work/dochazka"))
+(set-default-font "Ubuntu Mono 12")
