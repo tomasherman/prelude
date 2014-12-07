@@ -6,3 +6,9 @@
 (defun punchin ()
   (interactive)
   (find-file "~/Dropbox/work/dochazka"))
+
+; deft
+(global-set-key [f8] 'deft)
+(setq deft-directory "~/Dropbox/notes")
+(setq deft-extension "org")
+(setq deft-text-mode 'org-mode)

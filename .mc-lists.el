@@ -4,8 +4,10 @@
 (setq mc/cmds-to-run-for-all
       '(
         mc/mark-next-lines
+        sgml-slash
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        org-delete-char
         ))
