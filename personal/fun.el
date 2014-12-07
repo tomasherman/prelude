@@ -12,3 +12,4 @@
 (setq deft-directory "~/Dropbox/notes")
 (setq deft-extension "org")
 (setq deft-text-mode 'org-mode)
+(set-default-font "Ubuntu Mono 12")
