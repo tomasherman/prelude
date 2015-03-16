@@ -35,9 +35,9 @@
 
 (prelude-require-package 'anaconda-mode)
 
-(when (boundp 'company-backends)
-  (prelude-require-package 'company-anaconda)
-  (add-to-list 'company-backends 'company-anaconda))
+;; (when (boundp 'company-backends)
+  ;;(prelude-require-package 'company-anaconda)
+;;  (add-to-list 'company-backends 'company-anaconda))
 
 (require 'electric)
 (require 'prelude-programming)
@@ -87,7 +87,7 @@
 (defun prelude-python-mode-defaults ()
   "Defaults for Python programming."
   (subword-mode +1)
-  (anaconda-mode)
+ ;; (anaconda-mode)
   (eldoc-mode)
   (setq-local electric-layout-rules
               '((?: . (lambda ()

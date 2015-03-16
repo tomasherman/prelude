@@ -4,7 +4,6 @@
 
 (begin
  (setq default-input-method "MacOSX")
- (set-default-font "Monaco 12")
 
  ;; Make cut and paste work with the OS X clipboard
 
