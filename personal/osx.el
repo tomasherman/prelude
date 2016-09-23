@@ -2,7 +2,6 @@
 ;; OS X specific configuration
 ;; ---------------------------
 
-(begin
  (setq default-input-method "MacOSX")
 
  ;; Make cut and paste work with the OS X clipboard
@@ -26,4 +25,4 @@
 
  ;; Ensure the exec-path honours the shell PATH
  (require 'exec-path-from-shell)
- (exec-path-from-shell-initialize)))
+ (exec-path-from-shell-initialize))
