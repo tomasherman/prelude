@@ -4,6 +4,7 @@
 (setq mc/cmds-to-run-for-all
       '(
         mc/mark-next-lines
+        org-self-insert-command
         sgml-slash
         ))
 

@@ -12,3 +12,8 @@
 (setq deft-directory "~/Dropbox/notes")
 (setq deft-extension "org")
 (setq deft-text-mode 'org-mode)
+
+(setq org-log-done 'time)
+
+(add-hook 'org-mode-hook (lambda() (visual-line-mode 1)))
+(add-hook 'org-mode-hook (lambda() (whitespace-mode 0)))
