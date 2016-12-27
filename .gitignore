@@ -22,3 +22,5 @@ ac-comphist.dat
 tramp
 /var/pcache
 .org-id-locations
+.emacs.desktop
+.emacs.desktop.lock
