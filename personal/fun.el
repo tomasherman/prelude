@@ -17,3 +17,4 @@
 
 (add-hook 'org-mode-hook (lambda() (visual-line-mode 1)))
 (add-hook 'org-mode-hook (lambda() (whitespace-mode 0)))
+(add-hook 'org-mode-hook (lambda() (org-bullets-mode 1)))
