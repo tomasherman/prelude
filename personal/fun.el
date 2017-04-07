@@ -24,3 +24,8 @@
 (add-hook 'org-mode-hook (lambda() (whitespace-mode 0)))
 (add-hook 'org-mode-hook (lambda() (org-bullets-mode 1)))
 (add-hook 'org-mode-hook (lambda() (yas-minor-mode 1)))
+
+(set-face-attribute 'default nil
+                    :family "Monaco" :height 135 :weight 'normal)
+
+(setq org-src-fontify-natively t)

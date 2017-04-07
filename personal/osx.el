@@ -23,9 +23,6 @@
  ;; domain name
  (setq system-name (car (split-string system-name "\\.")))
 
-(set-face-attribute 'default nil
-                    :family "Monaco" :height 135 :weight 'normal)
- 
  ;; Ensure the exec-path honours the shell PATH
  (require 'exec-path-from-shell)
  (exec-path-from-shell-initialize))
