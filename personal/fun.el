@@ -7,6 +7,16 @@
   (interactive)
   (find-file "~/Dropbox/work/dochazka"))
 
+(defun ar ()
+  (interactive)
+  (find-file "~/Dropbox/results/index.org"))
+
+(defun ar/daily ()
+  (interactive)
+  (find-file "~/Dropbox/results/daily.org"))
+
+(setq epa-pinentry-mode 'loopback)
+
 ; deft
 (global-set-key [f8] 'deft)
 (setq deft-directory "~/Dropbox/notes")
