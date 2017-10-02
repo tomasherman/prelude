@@ -15,6 +15,10 @@
   (interactive)
   (find-file "~/Dropbox/results/daily.org"))
 
+(defun ar/daily-work ()
+  (interactive)
+  (find-file "~/Dropbox/results/daily-work.org"))
+
 (setq epa-pinentry-mode 'loopback)
 
 ; deft
