@@ -43,3 +43,15 @@
                     :family "Monaco" :height 135 :weight 'normal)
 
 (setq org-src-fontify-natively t)
+
+(defun ar/daily ()
+  (interactive)
+  (find-file "~/Dropbox/results/daily.org"))
+
+(defun ar/daily-work ()
+  (interactive)
+  (find-file "~/Dropbox/results/daily-work.org"))
+
+(defun ar ()
+  (interactive)
+  (find-file "~/Dropbox/results/index.org"))
