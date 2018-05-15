@@ -1,3 +1,4 @@
 (
- (:id "sha1:85b31c268009209a8d3c5387033b219264f7e62b" :fingerprint "sha1:7a:b9:ee:dc:fc:f6:bc:9f:70:5f:99:36:e5:b4:3c:2b:e0:8e:0e:ec" :host "melpa.org:443" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:85b31c268009209a8d3c5387033b219264f7e62b" :fingerprint "sha1:f8:e1:fc:e4:34:8e:19:e8:48:c1:61:fe:3d:09:dd:d4:d2:7a:cb:db" :host "melpa.org:443" :conditions (:insecure :unknown-ca :invalid))
+ (:id "sha1:3bb513bc89b280187249f08b068f953d9c359c77" :fingerprint "sha1:ec:d1:6c:e2:a3:ee:c3:6a:cf:6d:29:f7:79:2a:cc:0d:c1:78:e4:8f" :host "www.onet.pl:443" :conditions (:insecure :unknown-ca :invalid))
 )
