@@ -3,10 +3,6 @@
   (save-excursion
     (shell-command-on-region (mark) (point) "python -m json.tool" (buffer-name) t)))
 
-(defun punchin ()
-  (interactive)
-  (find-file "~/Dropbox/work/dochazka"))
-
 (defun ar ()
   (interactive)
   (find-file "~/Dropbox/results/index.org"))
@@ -28,9 +24,8 @@
 (setq deft-text-mode 'org-mode)
 
 
-(setq org-journal-dir "~/Dropbox/journal")
+(setq org-journal-dir "~/pCloud Drive/Crypto Folder/personal/therapy/journal/")
 (setq org-journal-file-format "%Y%m%d.org") 
-(setq org-journal-enable-encryption t)
 (setq org-log-done 'time)
 
 
